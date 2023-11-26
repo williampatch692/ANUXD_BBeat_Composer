@@ -1,0 +1,38 @@
+[
+	{
+		"description": "Reversed Altered Version of rrolas's CA98 ByteBeat",
+		"codeOriginal": "-t*(0xCA98CA98CA98>>(-t>>9&44)&15)|-t>>8|4E4/(-t&4095)",
+		"url": "https://dollchan.net/btb/res/3.html#694",
+		"date": "2023-03-25"
+	}, {
+		"description": "A new thing I made in ByteBeat.",
+		"codeOriginal": "5*(t*t>>15|t*t>>16)",
+		"url": "https://dollchan.net/btb/res/3.html#742",
+		"date": "2023-04-01"
+	}, {
+		"description": "Different Version of absolute199's organ thing using Signed ByteBeat",
+		"codeOriginal": "a=t-t/[1.5,1.9,2.5,3.05,3.4][(t>>13)%5],8*(sin(a/4)+sin(a/6)+asin(sin(a/8)))",
+		"url": "https://dollchan.net/btb/res/3.html#784",
+		"date": "2023-04-07",
+		"sampleRate": 32000,
+		"mode": "Signed Bytebeat"
+	}, {
+		"description": "remix of \"Different Version of absolute199's organ thing using Signed ByteBeat\"",
+		"remixed": {
+			"description": "Different Version of absolute199's organ thing using Signed ByteBeat",
+			"url": "https://dollchan.net/btb/res/3.html#784"
+		},
+		"codeOriginal": "(a=t-t/[1.5,1.9,1.5,1.9,2,5,2,5][(t>>13)%8],b=[1,1,0.90,0.75][(t>>15)%4],sin(a*b/4)+sin(a*b/6)+sin(a*b/8))*16|t>>11&15",
+		"codeMinified": "a=(t-t/[1.5,1.9,1.5,1.9,2,5,2,5][t>>13&7])*[1,1,.9,.75][t>>15&3],16*(sin(a/4)+sin(a/6)+sin(a/8))|t>>11&15",
+		"url": "https://www.reddit.com/r/bytebeat/comments/12eww2v/zombie_nation_kernkraft_400_but_made_using/",
+		"date": "2023-04-07",
+		"sampleRate": 32000,
+		"mode": "Signed Bytebeat"
+	}, {
+		"description": "Fractalized Past in Stereo Only!",
+		"codeOriginal": "[(t>>10^t>>11)%5*((t>>14&3^t>>15&1)+1)*t%99,((3+(t>>14&3)-(t>>16&1))/3*t%99&64)]",
+		"url": "https://www.reddit.com/r/bytebeat/comments/12f8yby/fractalized_past_in_stereo_only/",
+		"date": "2023-04-07",
+		"stereo": true
+	}
+]
